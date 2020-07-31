@@ -88,14 +88,17 @@ Show any code that is needed to
 For this part of the assignment, you can ignore the missing values in
 the dataset.
 
-1. Make a histogram of the total number of steps taken each day
+1. Make a histogram of the total number of steps taken each day ***See the resulting plot**
+![Histogram](figures/hist_total.png) 
 
 2. Calculate and report the **mean** and **median** total number of steps taken per day
 
 
 ### What is the average daily activity pattern?
 
-1. Make a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
+1. Make a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis) ***See the resulting plot**
+
+![Interval](figures/average_interval.png) 
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -112,7 +115,14 @@ bias into some calculations or summaries of the data.
 
 3. Create a new dataset that is equal to the original dataset but with the missing data filled in.
 
-4. Make a histogram of the total number of steps taken each day and Calculate and report the **mean** and **median** total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
+4. Make a histogram of the total number of steps taken each day and Calculate and report the **mean** and **median** total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps? ***See the resulting plot**
+
+![Imputed Histogram](figures/hist_imputed.png)
+
+And a comparison of the initial histogram and the the one with imputed values
+
+![Histogram Comparison](figures/hist_comparison.png)
+
 
 
 ### Are there differences in activity patterns between weekdays and weekends?
@@ -122,9 +132,9 @@ the dataset with the filled-in missing values for this part.
 
 1. Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
-1. Make a panel plot containing a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was created using **simulated data**:
+1. Make a panel plot containing a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). ***See the resulting plot**
 
-![Sample panel plot](instructions_fig/sample_panelplot.png) 
+![Daytypes comparison](figures/daytype.png)
 
 
 **Your plot will look different from the one above** because you will
